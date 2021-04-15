@@ -1,5 +1,5 @@
 const fs = require('fs');
-const inquirer = require('fs');
+const inquirer = require('inquirer');
 //prompting user for information to be written to the new file.
 inquirer.prompt([ 
     {
