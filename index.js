@@ -10,7 +10,7 @@ inquirer.prompt([
     },
     {
         type: 'input', 
-        message: 'Please enter a description of your project.',
+        message: 'Please enter a description of your project:',
         name: 'description'
 
     },
@@ -22,42 +22,43 @@ inquirer.prompt([
     },
     {
         type: 'input', 
-        message: '',
+        message: 'Describe the usage of this project:',
         name: 'usage'
 
     },
     {
         type: 'input', 
-        message: '',
+        message: 'Please choose a license:',
         name: 'license'
-
+//does this require a different input type with predetermined badges and licenses?
     },
     {
         type: 'input', 
-        message: '',
+        message: 'Please enter any contribution guidelines:',
         name: 'contributing'
 
     },
     {
         type: 'input', 
-        message: '',
+        message: 'Please enter any test instructions:',
         name: 'tests'
 
     },
     {
         type: 'input', 
-        message: '',
+        message: 'For any additional questions you may contact me at this email:',
         name: 'questions'
 
-    },
+    }
+]).then((response) => {
+    console.log(response);
+//declare variable of markdown here with template literals for whole markdown
 
 
-
-
-
-
-
-
-
-
-])
+    fs.writeFile("readMe.MD", readMe, function (err) {
+        if (err) {
+            throw err;
+        }
+        console.log('ok theres your readme leave me alone');
+    });
+})
