@@ -53,6 +53,39 @@ inquirer.prompt([
 ]).then((response) => {
     console.log(response);
 //declare variable of markdown here with template literals for whole markdown
+let readMe = `## ${response.title}
+## Table of contents
+1. [Description](#desc)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
+<!-- found some documentation on this table of contents from an atlassian article posted in discord -->
+<a name="description"></a>
+## Description
+${response.description}
+
+<a name="installation"></a>
+## Installation
+${response.installation}
+<a name="usage"></a>
+## Usage
+${response.usage}
+<a name="contributing"></a>
+## Contributing
+${response.contributing}
+
+<a name="license"></a>
+## License
+${response.license}
+
+<a name="tests"></a>
+## Tests
+${response.tests}
+
+<a name="questions"></a>
+## Questions
+For any additional information or any questions, please feel free to contact me at:${response.questions}`
 
 
     fs.writeFile("readMe.MD", readMe, function (err) {
