@@ -30,7 +30,7 @@ inquirer.prompt([
         type: 'input', 
         message: 'Please choose a license:',
         name: 'license'
-//does this require a different input type with predetermined badges and licenses?
+//does this require a different input type with predetermined badges and licenses? maybe a list type or something?
     },
     {
         type: 'input', 
@@ -60,6 +60,8 @@ let readMe = `## ${response.title}
 3. [Usage](#usage)
 4. [Contributing](#contributing)
 5. [License](#license)
+6. [Tests](#tests)
+7. [Questions](#questions)
 <!-- found some documentation on this table of contents from an atlassian article posted in discord -->
 <a name="description"></a>
 ## Description
@@ -74,18 +76,15 @@ ${response.usage}
 <a name="contributing"></a>
 ## Contributing
 ${response.contributing}
-
 <a name="license"></a>
 ## License
 ${response.license}
-
 <a name="tests"></a>
 ## Tests
 ${response.tests}
-
 <a name="questions"></a>
 ## Questions
-For any additional information or any questions, please feel free to contact me at:${response.questions}`
+For any additional information or any questions, please feel free to contact me at: ${response.questions}`
 
 
     fs.writeFile("readMe.MD", readMe, function (err) {
