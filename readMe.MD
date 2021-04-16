@@ -1,4 +1,4 @@
-## adsfsadfsadfjkh
+## Readme Generator
 ## Table of contents
 1. [Description](#desc)
 2. [Installation](#installation)
@@ -10,23 +10,23 @@
 <!-- found some documentation on this table of contents from an atlassian article posted in discord -->
 <a name="description"></a>
 ## Description
-asdf
+This readme generator makes readme's
 
 <a name="installation"></a>
 ## Installation
-asdf
+VSCode, Inquirer, and node.JS
 <a name="usage"></a>
 ## Usage
-asdf
+I dont want to
 <a name="contributing"></a>
 ## Contributing
-asd
+N/A
 <a name="license"></a>
 ## License
-sadf
-<a name="tests"></a>
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+<a name="tests"></a> 
 ## Tests
-fsa
+It should work
 <a name="questions"></a>
 ## Questions
-For any additional information or any questions, please feel free to contact me at: df
+For any additional information or any questions, please feel free to contact me at: Thomasmwpeeler@Gmail.com
