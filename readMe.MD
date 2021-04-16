@@ -10,23 +10,23 @@
 <!-- found some documentation on this table of contents from an atlassian article posted in discord -->
 <a name="description"></a>
 ## Description
-This readme generator makes readme's
+The readme generator is a command line project that allows the user to write a readme with their user input by way of template literals and node JS.
 
 <a name="installation"></a>
 ## Installation
-VSCode, Inquirer, and node.JS
+VSCode for code editing, Node JS, and Inquirer NPM.
 <a name="usage"></a>
 ## Usage
-I dont want to
+When the user runs node index.js in their command prompt after installing the proper dependencies, they will be prompted for various answers that will then be put in their generated readme markdown file.
 <a name="contributing"></a>
 ## Contributing
-N/A
+I was the only contributor in this case but please feel free to check out my code on github and propose any changes or edits.
 <a name="license"></a>
 ## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 <a name="tests"></a> 
 ## Tests
-It should work
+There weren't any tests done in this particular application but please by all means test it yourself and tell me your thoughts.
 <a name="questions"></a>
 ## Questions
 For any additional information or any questions, please feel free to contact me at: Thomasmwpeeler@Gmail.com
