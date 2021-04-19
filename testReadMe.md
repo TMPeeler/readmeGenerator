@@ -12,7 +12,7 @@ In order to accomplish the goal of this assignment, I had to use VSCode for the 
 
 ### Solving
 
-The solve of this assignment was done by using prior examples that we had of how to use the command line prompts using the Inquirer package. After implementing those with the type, message, and name, I knew that I needed to make a .then function to do some work. The .then function allowed me to make a variable equal to my markdown file with template literals and then write that file using the fs package that comes stock with node. The licenses were done with a function that triggers a switch case and says that depending on the user input, replace the name of the prompt with the license link and badge
+The solve of this assignment was done by using prior examples that we had of how to use the command line prompts using the Inquirer package. After implementing those with the type, message, and name, I knew that I needed to make a .then function to do some work. The .then function allowed me to make a variable equal to my markdown file with template literals and then write that file using the fs package that comes stock with node. The licenses were done with a function that triggers a switch case and says that depending on the user input, replace the name of the prompt with the license link and badge.
 
 ## Technologies Used
 
